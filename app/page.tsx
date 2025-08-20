@@ -81,12 +81,12 @@ clean code, componentes reutilizáveis, testes automatizados e evolução contí
       como ela fornece uma base sólida para construção de uma boa estratégia de TI alinhada ao negócio.`,
     },
     {
-      image: '/assets/empresa.png',
-      company: 'Marka System',
-      position: 'Frontend Engineer',
-      period: 'Fev 2018 - Presente',
-      description:
-        'Atualmente, atuo como Desenvolvedor de Software, sendo responsável pelo desenvolvimento de sistemas web completos, do front-end ao back-end. Entrego soluções robustas e escaláveis que apoiam diretamente as operações e estratégias digitais da empresa.',
+      image: '/assets/fiap.webp',
+      company: 'FIAP',
+      position: 'Offensive Cyber Security',
+      period: 'Fev 2025 - Presente',
+      description: `atuar com excelência como especialistas em Segurança da Informação e Segurança 
+      Cibernética, dominando todas as skills necessárias para encontrar vulnerabilidades no ambiente tecnológico das empresas.`,
     },
     {
       image: '/assets/estacio.jpg',
