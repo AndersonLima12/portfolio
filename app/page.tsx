@@ -230,15 +230,21 @@ function ExperienceAndStudiesTimeline() {
       <div className="max-w-5xl mx-auto">
         <h2 className="text-2xl font-bold mb-12 text-center">Minha Jornada</h2>
         <div className="relative">
+          {/* Linha vertical */}
           <div className="absolute left-1/2 transform -translate-x-1/2 h-full border-l-2 border-gray-300 dark:border-gray-700"></div>
+
           <div className="space-y-12">
             {timeline.map((item, i) => {
               const isLeft = i % 2 === 0;
+
               return (
                 <div key={i} className={`relative flex items-center w-full ${isLeft ? 'justify-start' : 'justify-end'}`}>
+                  {/* Card */}
                   <div
-                    className={`w-full md:w-5/12 bg-white dark:bg-gray-900 shadow-lg rounded-xl p-6 border border-gray-200 dark:border-gray-700 flex flex-col items-center text-center
-                      transform transition-transform duration-300 hover:-translate-y-3 hover:shadow-2xl`}>
+                    className={`w-full md:w-5/12 ${
+                      isLeft ? 'md:ml-auto' : 'md:mr-auto'
+                    } bg-white dark:bg-gray-900 shadow-lg rounded-xl p-6 border border-gray-200 dark:border-gray-700 flex flex-col items-center text-center
+                      transform transition-transform duration-300 hover:-translate-y-3 hover:shadow-2xl z-10`}>
                     {/* Imagem acima */}
                     <img src={item.image} alt={item.company} className="w-10 h-10 rounded-full object-cover shadow-md mb-4" />
 
@@ -253,7 +259,9 @@ function ExperienceAndStudiesTimeline() {
                       <p className="text-gray-600 dark:text-gray-400 mt-2">{item.description}</p>
                     </div>
                   </div>
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-gradient-to-r from-indigo-500 to-blue-600 border-4 border-white dark:border-gray-900 shadow"></div>
+
+                  {/* Ponto da timeline */}
+                  <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-gradient-to-r from-indigo-500 to-blue-600 border-4 border-white dark:border-gray-900 shadow z-0 md:z-20"></div>
                 </div>
               );
             })}
