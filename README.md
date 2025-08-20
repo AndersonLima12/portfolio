@@ -1,12 +1,10 @@
 # portfolio ![project status badge](./.github/active.svg)
 
-Developer portfolio site built with **Next.js** and **TailwindCSS**. View it here: http://spencerlepine.com
-
-![Portfolio Site Screenshot GIF](./.github/portfolio-site-landing-page.gif)
+Developer portfolio site built with **Next.js** and **TailwindCSS**.
 
 ```
-v3 Portfolio Site - Oct 2024-present
-spencerlepine.com (vercel + Route53)
+v3 Portfolio Site - Ago 2025-present
+Anderson Lima (vercel + Route53)
 ```
 
 ### 🛠️ Built With
@@ -14,10 +12,6 @@ spencerlepine.com (vercel + Route53)
 - **Node.js**: `>=v18`
 - **Next.js**: `v14`
 - **TailwindCSS**
-
-### 🎯 Lighthouse Score
-
-![Lighthouse Score](./.github/portfolio-lighthouse-scan.png)
 
 ### Local Development
 
@@ -60,5 +54,3 @@ $ npm run start
 ### License
 
 GNU General Public License v3.0 or later
-
-See [COPYING](./COPYING) to see the full text.
