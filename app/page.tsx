@@ -27,7 +27,7 @@ componentização, Git/GitHub e arquitetura escalável em ambientes ágeis (Scru
 Atualmente, crio aplicações web escaláveis e intuitivas, gerando valor para usuários e negócios, com foco em 
 clean code, componentes reutilizáveis, testes automatizados e evolução contínua.
 `,
-  aboutPhoto: '/assets/profile-bg.png',
+  aboutPhoto: '/assets/eu-profile.png',
   heroTofuEndpoint: 'https://public.herotofu.com/v1/8a20de80-e812-11ef-91ab-497918027bf8',
   socialLinks: [
     { name: 'GitHub', icon: Github, url: 'https://github.com/AndersonLima12' },
